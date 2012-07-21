@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="measure.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="keithley_com_port" Type="System.String" Scope="User">
+      <Value Profile="(Default)">COM 2</Value>
+    </Setting>
+    <Setting Name="keithley_speed" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">57600</Value>
+    </Setting>
+    <Setting Name="keithley_data_bits" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="keithley_stop_bits" Type="System.IO.Ports.StopBits" Scope="User">
+      <Value Profile="(Default)">OnePointFive</Value>
+    </Setting>
+    <Setting Name="keithley_parity" Type="System.IO.Ports.Parity" Scope="User">
+      <Value Profile="(Default)">Even</Value>
+    </Setting>
+    <Setting Name="keithley_flow_control" Type="System.IO.Ports.Handshake" Scope="User">
+      <Value Profile="(Default)">XOnXOff</Value>
+    </Setting>
+    <Setting Name="agilent_com_port" Type="System.String" Scope="User">
+      <Value Profile="(Default)">COM 4</Value>
+    </Setting>
+    <Setting Name="agilent_speed" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">9600</Value>
+    </Setting>
+    <Setting Name="agilent_data_bits" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="agilent_stop_bits" Type="System.IO.Ports.StopBits" Scope="User">
+      <Value Profile="(Default)">OnePointFive</Value>
+    </Setting>
+    <Setting Name="agilent_parity" Type="System.IO.Ports.Parity" Scope="User">
+      <Value Profile="(Default)">Odd</Value>
+    </Setting>
+    <Setting Name="agilent_flow_control" Type="System.IO.Ports.Handshake" Scope="User">
+      <Value Profile="(Default)">RequestToSend</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
